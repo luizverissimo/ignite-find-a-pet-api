@@ -1,0 +1,21 @@
+{
+  "name": "ignite-find-a-pet-api",
+  "version": "1.0.0",
+  "description": "The \"Find a Friend\" app is a user-friendly platform designed to connect animal lovers with pets in need of loving homes. With an intuitive interface, users can easily browse through a diverse selection of pets available for adoption, filtering their search based on preferences such as species, breed, age, and location. Each pet listing provides detailed information, including photos and videos, to help users make informed decisions. The app guides users through the adoption process, offering information on adoption fees, required paperwork, and steps involved. It also facilitates communication between users and shelters or individuals offering pets for adoption through in-app messaging. With features such as notifications for new pet listings and event listings for adoption events and fundraisers, the Adopt Pet app aims to streamline the adoption experience while promoting responsible pet ownership.",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.26.2"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2",
+    "@types/node": "^20.11.24",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  }
+}

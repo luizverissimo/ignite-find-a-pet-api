@@ -1,2 +1,2 @@
-# ignite-find-a-pet-api
-it's an api to adopt pets
+# Find a Friend
+The "Find a Friend" app is a user-friendly platform designed to connect animal lovers with pets in need of loving homes. With an intuitive interface, users can easily browse through a diverse selection of pets available for adoption, filtering their search based on preferences such as species, breed, age, and location. Each pet listing provides detailed information, including photos and videos, to help users make informed decisions. The app guides users through the adoption process, offering information on adoption fees, required paperwork, and steps involved. It also facilitates communication between users and shelters or individuals offering pets for adoption through in-app messaging. With features such as notifications for new pet listings and event listings for adoption events and fundraisers, the Adopt Pet app aims to streamline the adoption experience while promoting responsible pet ownership.

@@ -43,6 +43,7 @@ model Organization {
 
   created_at DateTime  @default(now())
   updated_at DateTime?
+  Pet        Pet[]
 
   @@map("organizations")
 }
@@ -59,6 +60,9 @@ model Pet {
   environment  DogEnvironment?
   image        String
   requirement  String?
+
+  organization    Organization @relation(fields: [organization_id], references: [id])
+  organization_id String
 
   created_at DateTime  @default(now())
   updated_at DateTime?

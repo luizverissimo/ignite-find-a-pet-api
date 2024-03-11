@@ -18,7 +18,8 @@ export class InMemoryPetsRepository implements PestsRepository {
       image: data.image,
       requirement: data.requirement ?? null,
       created_at: new Date(),
-      updated_at: null,
+      updated_at: data.updated_at ?? null,
+      adopted_in: data.adopted_in ?? null,
       organization_id: data.organization_id,
     }
 

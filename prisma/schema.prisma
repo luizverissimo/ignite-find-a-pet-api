@@ -34,8 +34,9 @@ model Organization {
 
   name      String
   email     String  @unique
+  password  String
   cep       String?
-  endereco  String?
+  address   String?
   latitude  Decimal
   longitude Decimal
   contact   String
@@ -60,6 +61,7 @@ model Pet {
   environment  DogEnvironment?
   image        String
   requirement  String?
+  adopted_in   DateTime?
 
   organization    Organization @relation(fields: [organization_id], references: [id])
   organization_id String

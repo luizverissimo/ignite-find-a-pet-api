@@ -35,8 +35,8 @@ model Organization {
   name      String
   email     String  @unique
   password  String
-  cep       String?
-  address   String?
+  cep       String
+  address   String
   latitude  Decimal
   longitude Decimal
   contact   String

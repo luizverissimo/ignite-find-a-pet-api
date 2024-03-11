@@ -53,7 +53,7 @@ model Pet {
 
   name         String
   about        String?
-  age          String?
+  age          Int?
   size         DogSize?
   energy       DogLevel?
   independence DogLevel?
